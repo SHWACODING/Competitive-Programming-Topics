@@ -9,4 +9,5 @@ add_executable(Full_Training_CP 1-Revision_OOP_Compare_Function.cpp
         4-Prefix_Sum_and_Partial_Sum.cpp
         5-Binary_Search.cpp
         6-Interactive_Problems.cpp
+        7-Recursion_and_BackTracking.cpp
 )
