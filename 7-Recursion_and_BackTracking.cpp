@@ -381,24 +381,24 @@
 //
 // int LIS (int i = 0, ll last = 0) {
 //     // Base Case
-    if (i == n) return 0;
-
-    // Transition
-    int leave = LIS(i+1, last);
-    int take = 0;
-
-    if (A[i] > last) take = LIS(i+1, A[i])+1;
-
-    return max(leave, take);
-}
-
-int main () {
-    cin >> n;
-    for (int i = 0; i < n; i++) cin >> A[i];
-
-    cout << LIS() << endl;
-
-    return 0;
-}
+//     if (i == n) return 0;
+//
+//     // Transition
+//     int leave = LIS(i+1, last);
+//     int take = 0;
+//
+//     if (A[i] > last) take = LIS(i+1, A[i])+1;
+//
+//     return max(leave, take);
+// }
+//
+// int main () {
+//     cin >> n;
+//     for (int i = 0; i < n; i++) cin >> A[i];
+//
+//     cout << LIS() << endl;
+//
+//     return 0;
+// }
 
 // ---------------------------------------------------------------------------------------------------
